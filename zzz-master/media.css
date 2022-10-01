@@ -1,0 +1,41 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container{
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+    .imgl{
+        display: none;
+    }
+    .top{
+            width: 60%;
+            flex-direction: column;
+            align-content: space-between;
+    }
+    .top p{
+            height: auto;
+            font-size: 14px;;
+    }
+    h1{
+            font-size: 32px;
+    }
+    .imgf{
+            width: 181.86px;
+            height: auto;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .bottom p{
+        font-size: 11px;
+
+    }
+    .facts{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+  }
